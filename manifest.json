@@ -1,0 +1,59 @@
+{
+  "name": "Misael Galvan",
+  "short_name": "Misa GV",
+  "description": "Portafolio profesional Misael Galvan",
+  "background_color": "#2B2B2B",
+  "theme_color": "#F0DB4F",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "./?utm_source=web_app_manifest",
+  "scope": "./",
+  "lang": "es-MX",
+  "icons": [
+    {
+      "src": "./img/favicon/favicon 1024.png",
+      "sizes": "608x1024",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/favicon/favicon 512.png",
+      "sizes": "304x512",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/favicon/favicon 384.png",
+      "sizes": "228x384",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/favicon/favicon 256.png",
+      "sizes": "152x256",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/favicon/favicon 192.png",
+      "sizes": "114x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/favicon/favicon 128.png",
+      "sizes": "76x128",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/favicon/favicon 96.png",
+      "sizes": "57x96",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/favicon/favicon 64.png",
+      "sizes": "38x64",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/favicon/favicon 32.png",
+      "sizes": "19x32",
+      "type": "image/png"
+    }
+  ]
+}

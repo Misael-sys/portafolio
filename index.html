@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="theme-color" content="#F0DB4F">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+	<link rel="stylesheet" href="estilos.css">
+	<link rel="apple-touch-icon" href="img/logo.png">
+	<link rel="apple-touch-startup-image" href="img/logo.png">
+	<link rel="manifest" href="./manifest.json">
+	<title>Portafolio Dinamico - Misael Galvan</title>
+</head>
+<body>
+	
+	<div class="contenedor">
+		<header>
+			<div class="logo">
+				<h1>Misael Galvan</h1>
+				<p>Ingenieria en Desarollo y Gestion de Software</p>
+			</div>
+			<form action="">
+				<input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+			</form>
+			<div class="categorias" id="categorias">	
+				<a href="#" class="activo">Todos</a>
+				<a href="#">Proyectos</a>
+				<a href="#">Cursos</a>
+				<a href="#">Pasatiempo</a>
+				<a href="#">Habilidades</a>
+			</div>
+		</header>
+
+		<section class="grid" id="grid">
+			<div class="item" 
+				 data-categoria="proyectos"
+				 data-etiquetas="carniceria ramilla proyecto web"
+				 data-descripcion="Sitio web para la Carniceria Ramilla  ubicada en Jalpan de Serra"
+			>
+				<div class="item-contenido">
+					<img src="img/carniceria.jpg" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="proyectos"
+				 data-etiquetas="educacion4.0 educacion 4.0 web curso"
+				 data-descripcion="Curso web desarrollado en la plataforma Genial.ly sobre educación 4.0 "
+			>
+				<div class="item-contenido">
+					<img src="img/educacion.jpg" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="proyectos"
+				 data-etiquetas="angular chatbot angie"
+				 data-descripcion="Sitio web con chatbot para ayuda desarollado en Angular y firebase"
+			>
+				<div class="item-contenido">
+					<img src="img/Angie.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="proyectos"
+				 data-etiquetas="papeleria web punto de venta"
+				 data-descripcion="Punto de venta web para Papeleria Papel y tinta"
+			>
+				<div class="item-contenido">
+					<img src="img/Logo papeleria.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="cursos"
+				 data-etiquetas="cisco routing interconexion "
+				 data-descripcion="Curso de Routing and Switching por Cisco Networking Academy"
+			>
+				<div class="item-contenido">
+					<img src="img/Routing.PNG" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="cursos"
+				 data-etiquetas="Iot internet cisco"
+				 data-descripcion="Curso de Internt de las cosas por Cisco Networking Academy"
+			>
+				<div class="item-contenido">
+					<img src="img/IOT.PNG" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="cursos"
+				 data-etiquetas="redes fundamentos cisco"
+				 data-descripcion="Curso Introducion a redes por Cisco Networking Academy"
+			>
+				<div class="item-contenido">
+					<img src="img/Fundamentos de redes.PNG" alt="">
+				</div>
+			</div>
+
+			<div class="item" 
+				 data-categoria="cursos"
+				 data-etiquetas="so sistemas operativos cisco"
+				 data-descripcion="Curso de Sistemas Operativos por Cisco Networking Academy"
+			>
+				<div class="item-contenido">
+					<img src="img/SO.PNG" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="pasatiempo"
+				 data-etiquetas="voleibol jugar "
+				 data-descripcion="El voleibol es mi deporte favorito y el que mas practico 
+				 	"
+			>
+				<div class="item-contenido">
+					<img src="img/voleibol.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="pasatiempo"
+				 data-etiquetas="jugar videojuegos "
+				 data-descripcion="Los videojuegos para mi es uno de los mejores pasatiempos.
+				 	"
+			>
+				<div class="item-contenido">
+					<img src="img/videojuegos.jpg" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="habilidades"
+				 data-etiquetas="html "
+				 data-descripcion="HTML 80 % 
+				 	"
+			>
+				<div class="item-contenido">
+					<img src="img/html.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="habilidades"
+				 data-etiquetas="css"
+				 data-descripcion="CSS 60 %
+				 	"
+			>
+				<div class="item-contenido">
+					<img src="img/css.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="habilidades"
+				 data-etiquetas="javascript js"
+				 data-descripcion="JAVASCRIPT  50 %
+				 	"
+			>
+				<div class="item-contenido">
+					<img src="img/JS.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="habilidades"
+				 data-etiquetas="oficce ofimatica"
+				 data-descripcion="OFIMATICA 90 %
+				 	"
+			>
+				<div class="item-contenido">
+					<img src="img/office.png" alt="">
+				</div>
+			</div>
+
+			
+		</section>
+
+		<section class="overlay" id="overlay">
+			<div class="contenedor-img">
+				<button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+				<img src="" alt="">
+			</div>
+			<p class="descripcion"></p>
+		</section>
+
+		<footer class="contenedor">
+			<div class="redes-sociales">
+				<div class="contenedor-icono">
+					<a href="http://www.twitter.com/" target="_blank" class="twitter">
+						<i class="fab fa-twitter"></i>
+					</a>
+				</div>
+				<div class="contenedor-icono">
+					<a href="https://www.facebook.com/" target="_blank" class="facebook">
+						<i class="fab fa-facebook-f"></i>
+					</a>
+				</div>
+				<div class="contenedor-icono">
+					<a href="http://www.instagram.com" target="_blank" class="instagram">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</div>
+			</div>
+			<div class="creado-por">
+				<p>Sitio hecho por <a href="#">Misael Galvan</a> - <a href="">UTSJR</a></p>
+			</div>
+		</footer>
+	</div>
+
+	<script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+	<script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+	<script src="main.js"></script>
+	<script src="./script.js"></script>
+</body>
+</html>
